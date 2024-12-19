@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TL-WR940N</title>
+    <link rel="stylesheet" href="./Website.css">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div id="building">
+<nav class="navbar">
+    
+    <div id="logopic">
+        <a href="#"><img src="./logo.png" alt="Logo" id="logo"></a>
+    
+        <div id="para">        
+            <p id="para1">450M Wireless N Router</p>
+            <p id="para2">Model No. TL-WR940N</p>
+        </div>
+    </div>
+
+        <img src="./top-right.png" alt="Pic" id="pic">
+    
+</nav>
+
+<div class="pink">
+    
+    <div class="leftside">
+        <!-- Purple divss -->
+        <div class="leftsidebox">Status</div>
+        <div class="leftsidebox">Quick Setup</div>
+        <div class="leftsidebox">WPS</div>
+        <div class="leftsidebox">Working Mode</div>
+        <div class="leftsidebox">Network</div>
+        <div class="leftsidebox">Wireless</div>
+        <div class="leftsidebox">Guest Network</div>
+        <div class="leftsidekids">
+            <div class="leftsidebox dhcp">DHCP</div>
+            <div class="leftsidebox">-DHCP Settings</div>
+            <div class="leftsidebox liteopacity">-DHCP Client List</div>
+            <div class="leftsidebox liteopacity">-Address Reservation</div>
+        
+        </div>
+        <div class="leftsidebox">Forwarding</div>
+        <div class="leftsidebox">Security</div>
+        <div class="leftsidebox">Parental Control</div>
+        <div class="leftsidebox">Access Control</div>
+        <div class="leftsidebox">Advanced Routing</div>
+        <div class="leftsidebox">Bandwidth Control</div>
+        <div class="leftsidebox">IP & MAC Binding</div>
+        <div class="leftsidebox">Dynamic DNS</div>
+        <div class="leftsidebox">IPv6 Support</div>
+        <div class="leftsidebox">System Tools</div>
+        <div class="leftsidebox">Logout</div>
+    </div>
+
+    <div class="red midbox">
+        <div class="purple midclassbox">
+            <div class="yellowHolder">
+            <div class="yellow">
+                <h4 class="dhcph4">DHCP Settings</h4>
+                <div class="hr1"><hr></div>
+            </div>
+            
+            <div class="yellow">
+                <form class="green">
+                    <div class="formslabel">
+                        <p class="formslabelkids">DHCP Server:</p>
+                        <label class="formslabelkids"  for="startipaddress">Start IP Address:</label>
+
+                        <label class="formslabelkids" for="endipaddress">End IP Address:</label>
+
+                        <label class="formslabelkids" for="addressleasetime">Address Lease Time:</label>
+
+                        <label class="formslabelkids" for="defaultgateway">Default Gateway:</label>
+
+                        <label class="formslabelkids" for="defaultdomain">Default Domain:</label>
+
+                        <label class="formslabelkids" for="primarydns">Primary DNS:</label>
+
+                        <label class="formslabelkids" for="secondarydns">Secondary DNS:</label>
+                    </div>
+
+                    <div class="formsinput">
+                    <div id="radiobtn">
+                        <input type="radio" name="DHCP Server" id="disable" value="disable">
+                        <label for="disable">Disable</label>
+                        <input type="radio" name="DHCP Server" id="enable" value="enable" checked>
+                        <label for="enable">Enable</label>
+                    </div>
+
+                    <div id="allinput">
+                        <input type="text" name="Start IP Address:" id="startipaddress" value="192.168.0.100">
+
+                        <input type="text" name="End IP Address:" id="endipaddress" value="192.168.0.199">
+                    
+                    <div class="optional">
+                        <input type="text" name="Address Lease Time:" id="addressleasetime" value="120"> minutes(1-2880 minutes, the default value is 120 min)
+                    </div>
+
+                    <div class="asli optional">
+                        <input type="text" name="Default Gateway:" id="defaultgateway" value="192.168.0.1"> (Optional)
+                    </div>
+                    
+                    <div class="asli optional">
+                        <input type="text" name="Default Domain:" id="defaultdomain"> (Optional)
+                    </div>
+
+                    <div class="asli optional">
+                        <input type="text" name="Primary DNS:" id="primarydns" value="0.0.0.0"> (Optional)
+                    </div>
+
+                    <div class="asli optional">
+                        <input type="text" name="Secondary DNS:" id="secondarydns" value="0.0.0.0"> (Optional)
+                    </div>
+                    
+                    </div>
+
+                    </div>
+                </form>
+
+                <div class="green">
+                    <div class="hr1"><hr></div>
+                    <div class="blue">
+                        <button type="button">Save</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="purple rightsidebox">
+            <div class="green1">
+                <h3 id="dhcpsettings">DHCP Settings Help</h3>
+                <p id="dhcpsettingpara">This device is set up by default as a DHCP (Dynamic Host Configuration Protocol) server, which provides the TCP/IP configuration for all the PCs that are connected to this device in the LAN.</p>
+            </div>
+            <ul class="green2">
+                <li><b class="graycolor">DHCP Server</b> - <b class="graycolor">Enable</b> or <b class="graycolor">Disable</b> the server. If you disable the Server, you must have another DHCP server within your network or else you must configure the IP address of the computer manually.
+                </li>
+                <li><b class="graycolor">Start IP Address</b> - This field specifies the first address in the IP Address pool. 192.168.0.100 is the default start IP address.
+                </li>
+                <li><b class="graycolor">End IP Address</b> - This field specifies the last address in the IP Address pool. 192.168.0.199 is the default end IP address.
+                </li>
+                <li><b class="graycolor">Address Lease Time</b> - The Address Lease Time is the length of time a network user will be allowed to keep connecting to this device with the current DHCP Address. Enter the amount of time, in minutes, that the DHCP address will be "leased". The time range is 1~2880 minutes. The default value is 120 minutes.
+                </li>
+                <li><b class="graycolor">Default Gateway</b> - (Optional) Suggest to input the IP Address of the LAN port of this device. The default value is 192.168.0.1.
+                </li>
+                <li><b class="graycolor">Default Domain</b> - (Optional) Input the domain name of your network.
+                </li>
+                <li><b class="graycolor">Primary DNS</b> - (Optional) Input the DNS IP address provided by your ISP. Or consult your ISP.
+                </li>
+                <li><b class="graycolor">Secondary DNS</b> - (Optional) You can input the IP Address of another DNS server if your ISP provides two DNS servers.
+                </li>
+            </ul>
+            <div class="lastparafather">
+                <p><span>Note:</span>To use the DHCP server function of this device, you should configure all computers in the LAN as "Obtain an IP Address automatically" mode. This function will take effect until this device reboots.
+                </p>
+
+                <p id="save">Click <span>Save</span> to save the changes.</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+</div>
+
+</body>
+</html>

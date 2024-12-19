@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(74, 203, 214);
+    font-family: Arial;
+    overflow-x: hidden;
+}
+
+#building{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.pink{
+    flex-grow: 1;
+}
+
+.navbar{
+    background-color: rgb(74, 203, 214);
+    justify-content: space-between;
+    display: flex;
+    height: 89px;
+    align-items: center;
+}
+#logopic{
+    display: flex;
+}
+#para{
+    margin-left: 60px;
+    color: white;
+    font-family: Arial;
+}
+#para1{
+    font-weight: bolder;
+}
+#para2{
+    font-size: 12px;
+}
+img#logo{
+    height: 40px;
+    padding-left: 20px;
+}
+img#pic{
+    height: 100%;
+    padding-right: 10px;
+    opacity: 0.3;
+}
+
+.leftside{
+    flex-shrink: 0;
+    white-space: nowrap;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+}
+
+.leftsidebox{
+    background-color: white;
+    margin-bottom: 2px;
+    padding-left: 18px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 14px;
+    padding-right:10px;
+}
+.liteopacity {
+    opacity: 0.5;
+}
+
+.leftsidekids{
+    background-color: rgb(228, 248, 249);
+}
+
+.leftsidekids .leftsidebox{
+    background-color: transparent;
+    margin-bottom: 0px;
+}
+
+.leftsidekids .dhcp{
+    background-color: rgb(255, 202, 0);
+}
+
+.midclassbox{
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 35px;
+    padding-bottom: 100px;
+    flex-grow: 1;
+    overflow:auto;
+    min-width: 600px;
+}
+
+.midbox{
+    display: flex;
+    margin-left: 10px;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.rightsidebox{
+    background-color: rgb(242,242,242);
+    width: 380px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 37px;
+    flex-shrink: 0;
+    padding-bottom: 50px;
+    overflow: auto;
+}
+
+.pink{
+    display: flex;
+    overflow:auto;
+}
+
+
+.dhcph4{
+    padding-bottom: 20px;
+    padding-left: 12px;
+    font-weight: normal;
+    color: rgb(74, 203, 214);
+}
+
+.formslabel{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    color: #36444B;
+}
+
+.formslabelkids{
+    margin-bottom: 12px;
+    text-align: right;
+    color: #36444B;
+}
+
+.formsinput{
+    display: flex;
+    flex-direction: column;
+    margin-left:38px;
+    color: #36444B;
+}
+.formsinput *{
+    margin-bottom: 3px;
+    color: #36444B;
+}
+
+form{
+    display: flex;
+    font-size: 14px;
+    margin-left:95px;
+    white-space:nowrap;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #36444B;
+}
+
+#radiobtn{
+    display: flex;
+}
+
+#radiobtn label{
+    margin-right: 5px;
+    margin-left: 8px;
+    color: #36444B;
+    font-size: 12px;
+}
+
+#allinput{
+    display: flex;
+    flex-direction: column;
+    color: #36444B;
+}
+
+#allinput input{
+    width: 125px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 3px;
+    font-size: 13px;
+    /* border-color: rgb(74, 203, 214); */
+    outline-color: rgb(74, 203, 214);
+    color: #36444B;
+}
+
+#addressleasetime{
+    width: 65px !important;
+}
+
+#addresstime{
+    display: flex;
+}
+
+.optional{
+    font-size: 12px;
+}
+
+.asli{
+    color: #C11C66;
+}
+
+button{
+    border-radius: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+    margin-top: 22px;
+    margin-left: 263px;
+    outline: none;
+    border: none;
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+button:hover{
+    color: white;
+    background-color: rgb(74, 203, 214);
+    border: none;
+}
+
+.hr1{
+    opacity: 0.5;
+}
+
+#dhcpsettings{
+    color: #005564;
+    font-size: 16px;
+    margin-bottom: 15px;
+    padding-right: 5px;
+}
+
+#dhcpsettingpara{
+    font-size: 12px;
+}
+
+ul{
+    font-size: 12px;
+    margin-left: 27px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.graycolor{
+    color: rgb(25, 74, 88);
+}
+
+span{
+    color: rgb(25, 74, 88);
+    font-weight: bold;
+}
+
+.lastparafather{
+    font-size: 12px;
+}
+
+#save{
+    margin-top: 10px;
+}
+
+
+/* Yellow holder */
+.yellowHolder{
+    width:100%;
+}
