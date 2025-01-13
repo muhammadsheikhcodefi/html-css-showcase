@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Chess</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="navbarkid">
+        <div class="logo"><p><b>Chess</b>.com</p></div>
+        <div class="link">
+            <a href="#"><p class="anchor">Home</p></a>
+            <a href="#"><p class="anchor">Play Online</p></a>
+            <a href="#"><p class="anchor">Play Bots</p></a>
+            <a href="#"><p class="anchor">Leaderboard</p></a>
+            <a href="#"><p class="anchor">Tournaments</p></a>
+        </div>
+    </div>
+</nav>
+<div id="bigfather">
+<div class="opponent" id="pfp-parent1">
+    <img src="./pfp/profile.jpg" alt="profile" class="pfp" id="pfp-kid1">
+    <div class="pfp-font">Huzaifa (1065)</div>
+</div>
+
+<div id="dada">
+<div id="board">
+    <div class="rows" id="row1">
+        <div id="box1" class="boxx">
+            <div id="eight">8</div>
+            <img src="./chess piece/rook-black2.png" alt="rook">
+        </div>
+        <div id="box2" class="boxx">
+            <img src="./chess piece/knight-black.png" alt="knight">
+        </div>
+        <div id="box3" class="boxx">
+            <img src="./chess piece/bishop-black2.png" alt="bishop">
+        </div>
+        <div id="box4" class="boxx">
+            <img src="./chess piece/queen-black.png" alt="queen">
+        </div>
+        <div id="box5" class="boxx">
+            <img src="./chess piece/king-black1.png" alt="king">
+        </div>
+        <div id="box6" class="boxx">
+            <img src="./chess piece/bishop-black.png" alt="bishop">
+        </div>
+        <div id="box7" class="boxx">
+            <img src="./chess piece/knight-black2.png" alt="knight">
+        </div>
+        <div id="box8" class="boxx">
+            <img src="./chess piece/rook-black.png" alt="rook">
+        </div>
+    </div>
+    <div class="rows" id="row2">
+        <div id="box9" class="boxx">
+            <div id="seven">7</div>
+            <img src="./chess piece/pawn-black.png" alt="pawn">
+        </div>
+        <div id="box10" class="boxx">
+            <img src="./chess piece/pawn-black2.png" alt="pawn">
+        </div>
+        <div id="box11" class="boxx">
+            <img src="./chess piece/pawn-black.png" alt="pawn">
+        </div>
+        <div id="box12" class="boxx">
+            <img src="./chess piece/pawn-black2.png" alt="pawn">
+        </div>
+        <div id="box13" class="boxx">
+            <img src="./chess piece/pawn-black.png" alt="pawn">
+        </div>
+        <div id="box14" class="boxx">
+            <img src="./chess piece/pawn-black2.png" alt="pawn">
+        </div>
+        <div id="box15" class="boxx">
+            <img src="./chess piece/pawn-black.png" alt="pawn">
+        </div>
+        <div id="box16" class="boxx">
+            <img src="./chess piece/pawn-black2.png" alt="pawn">
+        </div>
+    </div>
+    <div class="rows" id="row3">
+        <div id="box17" class="boxx">
+            <div id="six">6</div>
+        </div>
+        <div id="box18" class="boxx"></div>
+        <div id="box19" class="boxx"></div>
+        <div id="box20" class="boxx"></div>
+        <div id="box21" class="boxx"></div>
+        <div id="box22" class="boxx"></div>
+        <div id="box23" class="boxx"></div>
+        <div id="box24" class="boxx"></div>
+    </div>
+    <div class="rows" id="row4">
+        <div id="box25" class="boxx">
+            <div id="five">5</div>
+        </div>
+        <div id="box26" class="boxx"></div>
+        <div id="box27" class="boxx"></div>
+        <div id="box28" class="boxx"></div>
+        <div id="box29" class="boxx"></div>
+        <div id="box30" class="boxx"></div>
+        <div id="box31" class="boxx"></div>
+        <div id="box32" class="boxx"></div>
+    </div>
+    <div class="rows" id="row5">
+        <div id="box33" class="boxx">
+            <div id="four">4</div>
+        </div>
+        <div id="box34" class="boxx"></div>
+        <div id="box35" class="boxx"></div>
+        <div id="box36" class="boxx"></div>
+        <div id="box37" class="boxx"></div>
+        <div id="box38" class="boxx"></div>
+        <div id="box39" class="boxx"></div>
+        <div id="box40" class="boxx"></div>
+    </div>
+    <div class="rows" id="row6">
+        <div id="box41" class="boxx">
+            <div id="three">3</div>
+        </div>
+        <div id="box42" class="boxx"></div>
+        <div id="box43" class="boxx"></div>
+        <div id="box44" class="boxx"></div>
+        <div id="box45" class="boxx"></div>
+        <div id="box46" class="boxx"></div>
+        <div id="box47" class="boxx"></div>
+        <div id="box48" class="boxx"></div>
+    </div>
+    <div class="rows" id="row7">
+        <div id="box49" class="boxx">
+            <div id="two">2</div>
+            <img src="./chess piece/pawn-white.png" alt="pawn">
+        </div>
+        <div id="box50" class="boxx">
+            <img src="./chess piece/pawn-white2.png" alt="pawn">
+        </div>
+        <div id="box51" class="boxx">
+            <img src="./chess piece/pawn-white.png" alt="pawn">
+        </div>
+        <div id="box52" class="boxx">
+            <img src="./chess piece/pawn-white2.png" alt="pawn">
+        </div>
+        <div id="box53" class="boxx">
+            <img src="./chess piece/pawn-white.png" alt="pawn">
+        </div>
+        <div id="box54" class="boxx">
+            <img src="./chess piece/pawn-white2.png" alt="pawn">
+        </div>
+        <div id="box55" class="boxx">
+            <img src="./chess piece/pawn-white.png" alt="pawn">
+        </div>
+        <div id="box56" class="boxx">
+            <img src="./chess piece/pawn-white2.png" alt="pawn">
+        </div>
+    </div>
+    <div class="rows" id="row8">
+        <div id="box57" class="boxx">
+            <div id="one">1</div>
+            <img src="./chess piece/rook-white2.png" alt="rook">
+            <div class="white">a</div>
+        </div>
+        <div id="box58" class="boxx">
+            <img src="./chess piece/knight-white.png" alt="knight">
+            <div class="green">b</div>
+        </div>
+        <div id="box59" class="boxx">
+            <img src="./chess piece/bishop-white2.png" alt="bishop">
+            <div class="white">c</div>
+        </div>
+        <div id="box60" class="boxx">
+            <img src="./chess piece/queen-white.png" alt="queen">
+            <div class="green">d</div>
+        </div>
+        <div id="box61" class="boxx">
+            <img src="./chess piece/king-white1.png" alt="king">
+            <div class="white">c</div>
+        </div>
+        <div id="box62" class="boxx">
+            <img src="./chess piece/bishop-white.png" alt="bishop">
+            <div class="green">b</div>
+        </div>
+        <div id="box63" class="boxx">
+            <img src="./chess piece/knight-white2.png" alt="knight">
+            <div class="white">c</div>
+        </div>
+        <div id="box64" class="boxx">
+            <img src="./chess piece/rook-white.png" alt="rook">
+            <div class="green">b</div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="opponent" id="pfpparent-2">
+    <img src="./pfp/profile pic.jpg" alt="profile" class="pfp" id="pfpkid-2">
+    <div class="pfp-font">Murtaza (1164)</div>
+</div>
+</div>
+
+<footer>
+    <p id="footer">© 2025 | <a href="#" class="policy" id="anchor">Terms & Conditions</a> | <a href="#" class="policy" id="anchor">Privacy & Cookies Policy</a></p>
+</footer>
+
+</body>
+</html>
