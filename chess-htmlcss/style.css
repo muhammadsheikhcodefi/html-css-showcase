@@ -9,13 +9,18 @@ body{
 
 /* Navbar designing Start */
 .navbar{
-    height: 70px;
+    /* height: 70px; */
     background-color: #1A1A1D;
+}
+.navbar img{
+    height: 45px;
+    margin: 10px 5px;
 }
 
 .navbarkid{
     display: flex;
     justify-content: space-between;
+    align-items:center;
 }
 
 .logo{
@@ -35,7 +40,7 @@ a{
     color:#F0EDEE;
     font-size: 16px;
     margin-right: 22px;
-    margin-top: 25px;
+    /* margin-top: 25px; */
 }
 
 .anchor:hover{
